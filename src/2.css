@@ -1,0 +1,18 @@
+.tab-bar{
+    margin-top: 20px;
+    display: flex;
+}
+.tab-bar li{
+    border: 1px solid black;
+    width: 50vw;
+}
+.tab-bar li.active{
+    background: coral;
+}
+.tab-content{}
+.tab-content li {
+    display: none;
+}
+.tab-content li.active {
+    display: block;
+}

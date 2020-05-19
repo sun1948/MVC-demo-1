@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/Cellar/node@10/10.19.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js init
+
+PATH: 
+  /usr/local/opt/node@10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/sun/Desktop/demo/MVC/node_modules/.bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:137008:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1073:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "1.js": "0.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

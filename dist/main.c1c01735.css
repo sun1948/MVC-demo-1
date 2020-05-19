@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+ol,ul{
+    list-style: none;
+}
+body > #page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body > #page > section {
+    border: 1px solid grey;
+    width: 50vw;
+    height: 50vh;
+}
+#app1 {
+}
+
+#app1 > .output {
+    margin: 20px 0 10px 10px;
+}
+
+#app1 > .actions > button{
+    margin-left: 10px;
+    padding:2px 4px;
+    font-size: 12px;
+    width: 30px;
+}
+.tab-bar{
+    margin-top: 20px;
+    display: flex;
+}
+.tab-bar li{
+    border: 1px solid black;
+    width: 50vw;
+}
+.tab-bar li.active{
+    background: coral;
+}
+.tab-content{}
+.tab-content li {
+    display: none;
+}
+.tab-content li.active {
+    display: block;
+}
+
+#app3{}
+#app3 #box{
+    border: 2px solid red;
+    width: 10vw;
+    height: 10vw;
+    margin: 30px 0 0 20px;
+}
+#app3 #box.active{
+    transition: transform 1s;
+    transform: translateX(20vw);
+}
+
+
+
+#app4{}
+#app4 #circle{
+    border: 1px solid black;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    margin-left: 10vw;
+    margin-top: 5vw;
+}
+#app4 #circle:hover{
+    animation: change 2s infinite alternate;
+}
+@keyframes change {
+    0%{
+        background: red;
+    }
+    50%{
+        background: yellow;
+    }
+    100%{
+        background: blue;
+    }
+}
+
+/*# sourceMappingURL=main.c1c01735.css.map */
